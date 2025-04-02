@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+.Cover{
+  background-image: url('./images/Greet.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
