@@ -4,6 +4,7 @@ import "../css/Greet.css";
 import "../App.css"
 import { useNavigate } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
+import video from '../images/Greet.mp4'
 
 function Greet() {
 
@@ -26,7 +27,7 @@ function Greet() {
         <div className="container-fluid">
         <div className="row">
             
-            <div className="col-6">
+            <div className="d-flex justify-content-center align-items-center">
             <AnimatePresence>
                 {showFirst ? (
                     <motion.div
@@ -77,6 +78,20 @@ function Greet() {
                 )}
             </AnimatePresence>
         </div>
+        {/* <div className="col-6 d-flex justify-content-center align-items-center video" style={{height:"100vh"}}>
+                <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1 }}
+            >
+            <video
+                src={video}
+                autoPlay
+                loop
+                muted
+            />
+            </motion.div>
+        </div> */}
         </div>
         </div>
         </div>
