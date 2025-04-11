@@ -19,7 +19,7 @@ function Home() {
             <motion.button initial={{x:100,opacity:0.5}} animate={{x:0,opacity:1}} transition={{duration:2,type:"spring",ease:"easeIn"}}  whileHover={{scale:1.2,color:"cyan"}}
             className="mb-4 back"
             onClick={Back}>
-                <BackIcon/>
+                <BackIcon/><span>Back</span>
             </motion.button>
             <hr/>
             </div>

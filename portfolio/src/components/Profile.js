@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import profileImage from "../images/img1.jpeg";
 import profileImage2 from "../images/img2.jpeg";
+import profileImage3 from "../images/img3.jpg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import HomeIcon from '@mui/icons-material/Home';
 import CodeIcon from '@mui/icons-material/Code';
@@ -10,7 +11,7 @@ import SkillIcon from '@mui/icons-material/PrecisionManufacturing';
 import "../css/Profile.css"
 import { useNavigate } from "react-router-dom";
 
-const images = [profileImage, profileImage2];
+const images = [profileImage, profileImage2,profileImage3];
 
 export default function Profile() {
   const [index, setIndex] = useState(0);

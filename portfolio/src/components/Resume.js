@@ -39,7 +39,7 @@ function resume() {
         },
         {
             name: "Instagram",
-            href: "https://instagram.com/yourprofile", // Replace with your actual profile
+            href: "https://www.instagram.com/harshajayanth_/", // Replace with your actual profile
             y: -100
         }
     ];

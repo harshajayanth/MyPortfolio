@@ -1,5 +1,8 @@
 [
-    { "id": 1, "title": "Octaves","description": "A Music Learning Web Platform","image":"Octaves" },
-    { "id": 2, "title": "Anonymous","description": "An AI Voice Assistant","image":"Anonymous"  }
+    { "id": 1, "title": "Octaves","description": "A Music Learning Web Platform","tech":["Html","Js","Css"],
+    "summary":"​The Octaves is an online platform designed to help users learn piano through structured lessons and resources. The website offers sections on Notes & Octaves, Scales, and Chords, each providing detailed explanations and lessons tailored for beginners. Additionally, it explores various musical genres, including Indian Ragas and Jazz Piano, allowing learners to diversify their skills. The platform also features TheOctavemidi, a beta tool aimed at enhancing the learning experience. Developed by Harsha Jayanth, The Octaves serves as a comprehensive resource for aspiring pianists.",
+    "image":"Octaves" ,"livedemo":true,"url":"https://the-octaves2-0.vercel.app/index.html","github":"https://github.com/harshajayanth/TheOctaves2.0"},
+    { "id": 2, "title": "Anonymous","description": "An AI Voice Assistant","tech":["Html","react"],
+    "summary":"","image":"Anonymous","livedemo":true,"url":"https://harshajayanth.github.io/anonymous.com/","github":"https://github.com/harshajayanth/anonymous.com" }
 
 ]
