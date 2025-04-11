@@ -1,0 +1,54 @@
+.cir {
+    border-radius: 10%;
+    box-shadow: 0px 0px 200px rgba(138, 43, 226, 0.8);
+    transition: all 0.1s ease-in-out;
+}
+
+.rb {
+    position: relative;
+    border-radius: 10%;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: 5px solid transparent;
+    overflow: hidden;
+}
+
+
+
+
+.cir:hover {
+    width: 450px;
+    height: 450px;
+    box-shadow: 0px 0px 200px rgb(226, 43, 61);
+}
+.button{
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+    color: cyan;
+    border: solid 1px cyan;
+    transition: ease-in-out 0.5s;
+}
+
+
+.button.active{
+    background-color: cyan;
+    width: 60px;
+    height: 60px;
+    border-radius: 20%;
+    box-shadow: 0px 0px 50px cyan;
+    color: black;
+    border: solid 1px cyan;
+}
+
+.button.inactive{
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+    color: cyan;
+    border: solid 1px cyan;
+}
